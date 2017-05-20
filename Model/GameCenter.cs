@@ -1,4 +1,5 @@
-﻿using MiniChess.Model.Connection;
+﻿
+using MiniChess.Model.Connection;
 using MiniChess.Model.Enums;
 using MiniChess.Model.Players;
 using System;
@@ -104,6 +105,8 @@ namespace MiniChess.Model
                 }
             }
             Console.WriteLine("Self : " + color + " Gewonnen: " + state.Won);
+            server.CloseConnection();
         }
+
     }
 }

@@ -40,6 +40,11 @@ namespace MiniChess.Model.Connection
             _writer.AutoFlush = true;
             Read();
         }
+
+        public void CloseConnection()
+        {
+            _Client.Close();
+        }
         private void Send(string s)
         {
             if (!_stream.CanWrite)

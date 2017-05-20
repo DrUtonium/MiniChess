@@ -1,4 +1,5 @@
-﻿using MiniChess.Model;
+﻿
+using MiniChess.Model;
 using MiniChess.Model.Connection;
 using MiniChess.Model.Enums;
 using MiniChess.Model.Players;
@@ -24,21 +25,27 @@ namespace MiniChess
             //for (int j = 0; j < 1; j++)
             //{
             //    var gameCenter = new GameCenter();
+            //    gameCenter.PlayGames(200, new LookaheadPlayer(3), new HumanPlayer());
+            //}
+
+            //for (int j = 0; j < 1; j++)
+            //{
+            //    var gameCenter = new GameCenter();
             //    gameCenter.PlayGames(200, new LookaheadPlayer(3), new GreedyPlayer());
             //}
 
             dostuff();
 
-            Console.WriteLine("fertig");
-            Console.ReadLine();
         }
+
         public static void dostuff()
         {
             Server server = new Server("131.252.214.11", 3589, "PowaPuffGirlEnterprises", "1234");
             GameCenter center = new GameCenter();
-            AlphaBetaTimedPlayer player = new AlphaBetaTimedPlayer(7.47);
-            center.PlayGameOnServer(player, server, false, 13736);
-            //center.PlayGameOnServer(player, server, true, startColor: Colors.WHITE);
+            AlphaBetaTimedPlayer player = new AlphaBetaTimedPlayer(6);
+
+            center.PlayGameOnServer(player, server, false, 15641);
+            //center.PlayGameOnServer(player, server, true, startColor: Colors.BLACK);
         }
     }
 }

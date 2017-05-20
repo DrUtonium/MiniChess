@@ -42,6 +42,7 @@ namespace MiniChess.Model.Players
                         break;
                     }
                     List<Move> temp = newState.GenerateAllLegalMoves();
+
                     if (temp.Count == 0)
                     {
                         break;
@@ -54,12 +55,12 @@ namespace MiniChess.Model.Players
             {
 
             }
-
             Move move = null;
             foreach (KeyValuePair<int,List<Move>> list in movesDepth)
             {
                 int highscore = list.Value.Max(x => x.Score);
                 Move m = list.Value.First(x => x.Score == highscore);
+                Console.WriteLine("Depth: "+list.Key +" Move: "+ m);
                 if (m.Score > -100000 || list.Key == 1)
                 {
                     move = m;

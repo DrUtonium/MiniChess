@@ -1,7 +1,7 @@
-/home/powapuffgirl/RiderProjects/MiniChess/MiniChess/bin/Debug/MiniChess.exe.config
-/home/powapuffgirl/RiderProjects/MiniChess/MiniChess/bin/Debug/MiniChess.exe
-/home/powapuffgirl/RiderProjects/MiniChess/MiniChess/bin/Debug/MiniChess.pdb
-/home/powapuffgirl/RiderProjects/MiniChess/MiniChess/obj/Debug/MiniChess.csprojResolveAssemblyReference.cache
-/home/powapuffgirl/RiderProjects/MiniChess/MiniChess/obj/Debug/MiniChess.csproj.CoreCompileInputs.cache
-/home/powapuffgirl/RiderProjects/MiniChess/MiniChess/obj/Debug/MiniChess.exe
-/home/powapuffgirl/RiderProjects/MiniChess/MiniChess/obj/Debug/MiniChess.pdb
+/home/powapuffgirl/RiderProjects/MiniChess1/MiniChess/bin/Debug/MiniChess.exe.config
+/home/powapuffgirl/RiderProjects/MiniChess1/MiniChess/bin/Debug/MiniChess.exe
+/home/powapuffgirl/RiderProjects/MiniChess1/MiniChess/bin/Debug/MiniChess.pdb
+/home/powapuffgirl/RiderProjects/MiniChess1/MiniChess/obj/Debug/MiniChess.csprojResolveAssemblyReference.cache
+/home/powapuffgirl/RiderProjects/MiniChess1/MiniChess/obj/Debug/MiniChess.csproj.CoreCompileInputs.cache
+/home/powapuffgirl/RiderProjects/MiniChess1/MiniChess/obj/Debug/MiniChess.exe
+/home/powapuffgirl/RiderProjects/MiniChess1/MiniChess/obj/Debug/MiniChess.pdb

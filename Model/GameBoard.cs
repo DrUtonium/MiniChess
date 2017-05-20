@@ -1,4 +1,5 @@
-﻿using MiniChess.Model.Enums;
+﻿
+using MiniChess.Model.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -345,7 +346,7 @@ namespace MiniChess.Model
                             temp = 10000;
                             break;
                         case Pieces.Queen:
-                            temp = 900;
+                            temp = 700;
                             break;
                         case Pieces.Bishop:
                         case Pieces.Knight:

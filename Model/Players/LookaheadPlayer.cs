@@ -32,5 +32,6 @@ namespace MiniChess.Model.Players
             var move = _movesTop.First(x => x.Score == max);
             return move;
         }
+
     }
 }
